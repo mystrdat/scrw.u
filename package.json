@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "next",
-    "start:dev": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build",
+    "start:dev": "next",
     "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/mystrdat/scrw.u.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/mystrdat/scrw.u/issues"
   },
