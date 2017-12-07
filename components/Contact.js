@@ -1,3 +1,5 @@
+import ContactForm from './ContactForm'
+
 import Layout from '../constants/layout';
 
 export default () =>
@@ -8,6 +10,7 @@ export default () =>
       <strong><span>Contact us</span></strong>
       <p>Feedback, suggestions, question or praise? We’d love to hear from you! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor arcu id tristique blandit. Mauris lacus eros, scelerisque ac lectus vel, feugiat varius quam.</p>
     </div>
+    <ContactForm/>
   </div>
   <style jsx>{`
   section {

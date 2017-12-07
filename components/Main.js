@@ -1,7 +1,9 @@
 import Hero from './Hero';
 import Features from './Features';
+import FeatureSlider from './FeatureSlider';
 import Testimonials from './Testimonials';
 import Restaurants from './Restaurants';
+import RestaurantFinder from './RestaurantFinder';
 import Contact from './Contact';
 
 import Layout from '../constants/layout';
@@ -10,8 +12,10 @@ export default () =>
 <main>
   <Hero/>
   <Features/>
+  <FeatureSlider/>
   <Testimonials/>
   <Restaurants/>
+  <RestaurantFinder/>
   <Contact/>
   <style global jsx>{`
   main {

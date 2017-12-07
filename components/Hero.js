@@ -11,7 +11,7 @@ export default () =>
   <style jsx>{`
   section {
     min-height: calc(100vh - ${Layout.headerHeight});
-    background: url(static/hero.jpg) no-repeat 50% / cover;
+    background: url(static/iphone.png) no-repeat 50%, url(static/hero.jpg) no-repeat 50% / cover;
   }
   section > div {
     min-height: inherit;
