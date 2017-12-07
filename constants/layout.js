@@ -9,6 +9,6 @@ export default {
     burgundy: '#b2002d'
   },
   gradients: {
-     burgundy: 'linear-gradient(to bottom, rgba(55,9,29,1) 0%,rgba(90,1,24,1) 100%)'
+    burgundy: 'linear-gradient(to bottom, rgba(55,9,29,1) 0%,rgba(90,1,24,1) 100%)'
   }
 }
