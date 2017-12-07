@@ -4,7 +4,7 @@ export default () =>
 <section className="testimonials">
   <div>
     <q>I was very skeptical that an app could make wine recommendations worthy of an experienced sommelier, but Corkscrew has made a believer out of me.</q>
-    <span><strong>Thierry Tomasin</strong> - Former Head Sommelier, Le Gavroche | Former Head of UK Sommelier Association</span>
+    <span><strong>Thierry Tomasin</strong> &nbsp;&mdash;&nbsp; Former Head Sommelier, Le Gavroche &nbsp;|&nbsp; Former Head of UK Sommelier Association</span>
   </div>
   <style jsx>{`
   section {

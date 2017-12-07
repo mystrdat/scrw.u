@@ -61,7 +61,7 @@ export default class Header extends React.Component {
         display: block;
         width: 110px;
         height: 20px;
-        background: url(static/corkscrew-logo-white.svg) no-repeat 50% / contain;
+        background: url(static/logo-corkscrew-white.svg) no-repeat 50% / contain;
         text-indent: -999px;
         overflow: hidden;
       }
