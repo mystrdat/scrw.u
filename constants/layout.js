@@ -1,6 +1,6 @@
 export default {
   padding: '20px',
-  siteWidth: '1440px',
+  siteWidth: '100%',
   contentWidth: '960px',
   headerHeight: '54px',
   colors: {
