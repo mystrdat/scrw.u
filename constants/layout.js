@@ -2,6 +2,7 @@ export default {
   padding: '20px',
   siteWidth: '100%',
   contentWidth: '960px',
+  contentMaxWidth: '1440px',
   headerHeight: '54px',
   colors: {
     grey: '#666',
