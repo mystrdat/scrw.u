@@ -6,6 +6,7 @@ export default {
   headerHeight: '54px',
   colors: {
     grey: '#666',
+    greyLight: '#d9d9d9',
     burgundy: '#b2002d'
   },
   gradients: {

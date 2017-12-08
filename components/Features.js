@@ -8,6 +8,9 @@ export default () =>
     </div>
   </div>
   <style jsx>{`
+  section > div {
+    padding-bottom: 50px;
+  }
   h2:before {
     content: '1';
   }
