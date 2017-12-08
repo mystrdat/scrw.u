@@ -20,5 +20,8 @@ export default () =>
   h2:before {
     content: '3';
   }
+  .description {
+    margin-bottom: 80px;
+  }
   `}</style>
 </section>
