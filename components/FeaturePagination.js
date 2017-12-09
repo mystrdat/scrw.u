@@ -37,8 +37,8 @@ export default () =>
     margin: 0;
   }
   li {
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
+    line-height: 24px;
     margin: 2px 0;
     padding-left: 64px;
     position: relative;
@@ -66,10 +66,10 @@ export default () =>
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    transform: translateX(-10px) scale(0.95);
+    transform: translateX(-10px) scale(1);
     transform-origin: 0 50%;
     transition: all 200ms linear;
-    opacity: 0;
+    opacity: 0.2;
     will-change: opacity, transform;
   }
   .label:before {
@@ -82,7 +82,9 @@ export default () =>
     top: 50%;
     transform: translateY(-50%);
     background-color: #000;
+    transition: all 200ms linear;
     will-change: opacity;
+    opacity: 0;
   }
   /* Hover state */
   li:hover .circle {
@@ -92,6 +94,9 @@ export default () =>
     opacity: 0.4;
     transform: translateX(0);
   }
+  li:hover .label:before {
+    opacity: 1;
+  }
   /* Active state */
   .active .circle {
     border-color: #000;
@@ -99,6 +104,9 @@ export default () =>
   .active .label {
     opacity: 1;
     transform: translateX(0) scale(1);
+  }
+  .active .label:before {
+    opacity: 1;
   }
   `}</style>
 </div>
