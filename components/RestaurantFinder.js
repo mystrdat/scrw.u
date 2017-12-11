@@ -63,6 +63,7 @@ export default () =>
     max-height: calc(100vh - ${Layout.headerHeight});
     flex-direction: row;
     padding: 0;
+    overflow: visible;
   }
   .restaurant-list {
     display: flex;
