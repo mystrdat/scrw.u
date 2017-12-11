@@ -33,7 +33,8 @@ export default () =>
   input[type=text]::placeholder, textarea::placeholder {
     color: rgba(255,255,255,0.3);
   }
-  input[type=text]:focus {
+  input[type=text]:focus,
+  textarea:focus {
     border-color: rgba(255,255,255,1);
   }
   textarea {
