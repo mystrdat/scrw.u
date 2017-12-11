@@ -27,5 +27,9 @@ export default () => [
     list-style: none;
     padding-left: 0;
   }
+  input, textarea {
+    font: inherit;
+    outline: 0;
+  }
   `}</style>
 ]

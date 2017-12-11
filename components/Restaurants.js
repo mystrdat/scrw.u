@@ -11,5 +11,8 @@ export default () =>
   h2:before {
     content: '2';
   }
+  section > div {
+    padding-bottom: 80px;
+  }
   `}</style>
 </section>

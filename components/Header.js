@@ -32,6 +32,7 @@ export default class Header extends React.Component {
         height: ${Layout.headerHeight};
         background-color: #000;
         z-index: 100;
+        will-change: transform;
       }
       nav {
         max-width: ${Layout.contentWidth};
